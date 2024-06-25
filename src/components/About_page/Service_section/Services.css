@@ -1,0 +1,116 @@
+#Service_page .Services_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+    padding-top: 0;
+    background-color: transparent;
+    color: white;
+}
+
+#Service_page .Services_container .services_containt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    width: 85%;
+    gap: 1rem;
+}
+
+#Service_page .Services_container .single_service_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: var(--main-black);
+    /* box-shadow: 0 0 1rem inset lightblue; */
+    padding: 2rem 1rem;
+
+}
+
+#Service_page .Services_container .single_service_container h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+#Service_page .Services_container .single_service_container p {
+    text-align: center;
+    margin: .5rem 0;
+    /* font-size: clamp(1rem, 1.3vw, 10vw); */
+    font-size: 1.1rem;
+    line-height: 1.5;
+    /* color: rgba(0, 0, 0, 0.688); */
+}
+
+#Service_page .Services_container .single_service_container i {
+    font-size: 3rem;
+    /* color: var(--main-color); */
+}
+
+
+@media(max-width: 900px) {
+    #Service_page .Services_container .services_containt {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 700px) {
+    #Service_page .Services_container .services_containt {
+        grid-template-columns: 1fr;
+    }
+
+ 
+}
+
+@media (max-width: 400px) {
+    #Service_page .Services_container .services_containt {
+    width: 93%;
+}
+}
+
+
+
+
+
+
+
+
+#Service_page .portfolio_tilte_box.service {
+    width: 85%;
+}
+
+
+#Service_page .portfolio_tilte_box  h2 {
+    position: relative;
+    font-size: clamp(1.8rem, 2.2vw, 3vw);
+    margin-bottom: 3rem;
+    color: black;
+}
+
+#Service_page .portfolio_tilte_box > h2::before,
+#Service_page .portfolio_tilte_box > h2::after {
+    content: "";
+    position: absolute;
+    width: 5rem;
+    height: .152rem;
+    border-radius: 1rem;
+    bottom: -0.2rem;
+    left: 0;
+    background-color: var(--main-color);
+}
+
+#Service_page .portfolio_tilte_box > h2::after {
+   bottom: -.7rem;
+   width: 3rem;
+   
+}
+
+
+
+

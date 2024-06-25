@@ -1,0 +1,259 @@
+#About_page .Hero2_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 97vh;
+}
+
+
+
+#About_page .rotate_bg {
+    position: absolute;
+    overflow: hidden;
+    transform: rotateZ(8deg);
+    bottom: 5rem;
+    left: -2.5rem;
+    top: -10rem;
+    right: -5rem;
+    border-radius: 0 0 15rem 0;
+}
+
+#About_page .image_box {
+    transform: rotateZ(-8deg);
+    width: 100%;
+    height: 100%;
+}
+
+#About_page .image_box .image {
+    width: 100%;
+    height: 90%;
+    transform: translateY(-1.8rem);
+}
+
+#About_page .image_box .image img {
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: 140%;
+    transform: rotateY(180deg);
+
+}
+
+#About_page .Hero2_container .hero_filter {
+    position: absolute;
+    inset: 0;
+    bottom: -15rem;
+    z-index: 2;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.789) 50%, rgba(0, 0, 0, 0.697));
+
+}
+
+
+/* /////////////////////////////////////////////// */
+/* hero2_containt */
+#About_page .hero2_containt {
+    width: 80%;
+    z-index: 1;
+    color: white;
+
+}
+
+
+#About_page .hero2_containt .hero {
+    transform: translateY(-3rem);
+}
+
+#About_page .hero2_containt .hero h1 {
+    font-size: clamp(3rem, 6.5vw, 10vw);
+    margin: .0rem 0;
+    text-align: center;
+}
+
+#About_page .hero2_containt .hero h2 {
+    font-size: clamp(1.52rem, 2.4vw, 5vw);
+    margin: .0rem 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+#About_page .hero2_containt .hero h3 {
+    font-size: clamp(1.6rem, 2vw, 5vw);
+    margin: .0rem 0;
+    margin-top: 2rem;
+    margin-bottom: .51rem;
+    text-align: center;
+    color: var(--main-color);
+    
+}
+
+
+
+
+
+
+
+
+#About_page .hero2_containt .hero button {
+    width: 10rem;
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    border: none;
+    font-size: 1.051rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid  white;
+    
+}
+
+
+
+
+
+/* HEro links */
+#About_page .Hero2_container .hero_links {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    color: black;
+    
+}
+
+#About_page .hero2_containt .hero_links > div {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: .61rem;
+    background-color: white;
+    /* box-shadow: 0 0 1rem inset rgba(0, 0, 0, 0.200); */
+
+}
+
+#About_page .hero2_containt .hero_links > div > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: .251rem;
+    padding: 0 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.189);
+}
+
+#About_page .hero2_containt .hero_links > div > div:last-child i {
+   cursor: pointer;
+}
+
+#About_page .hero2_containt .hero_links > div > div img {
+    width: 1.82rem;
+    height: 1.82rem;
+    border-radius: 10rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#About_page .hero2_containt .hero_links > div > div i {
+    font-size: 1.56rem;
+    color: var(--main-color)
+}
+
+
+ #About_page .hero2_containt .hero_links > div > div h3{
+    margin: .5rem 0;
+    margin-bottom: 0.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(62, 62, 62);
+
+}
+
+ #About_page .hero2_containt .hero_links > div > div p{
+    margin: .5rem 0;
+    margin-top: 0;
+    color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',  sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    #About_page .Hero2_container {
+        height: 70vh;
+    }
+    
+
+
+    #About_page .rotate_bg {
+    transform: rotateZ(0deg);
+    border-radius: 0;
+}
+
+#About_page .image_box {
+    transform: rotateZ(0deg);
+}
+
+#About_page .rotate_bg {
+    bottom: 0rem;
+    left:  0rem;
+    top: -11rem;
+    right: 0rem;
+}
+
+
+
+
+
+#About_page .hero2_containt .hero_links {
+    display: none;
+}
+
+#About_page .hero2_containt .hero {
+    transform: translateY(0rem);
+}
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 501px) {
+
+
+    #About_page .Hero2_container .hero_filter {
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.940) 70%);
+}
+
+
+    #About_page .hero2_containt .hero {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
+
+

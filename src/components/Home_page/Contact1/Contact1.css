@@ -1,0 +1,215 @@
+/* html {
+    --section-bg: #ffffff;
+    --main-color: #11a372;
+    --main-color-dark: #03583c;
+    --main-light: #11a3721e;
+} */
+
+
+
+@font-face {
+    font-family: Lato_light;
+    src: url(../../GoogleFonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: Lato_regular;
+    src: url(../../GoogleFonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato_bold;
+    src: url(../../GoogleFonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: Jost_light;
+    src: url(../../GoogleFonts/Jost/static/Jost-Light.ttf);
+}
+@font-face {
+    font-family: Jost_regular;
+    src: url(../../GoogleFonts/Jost/static/Jost-Regular.ttf);
+}
+@font-face {
+    font-family: Jost_bold;
+    src: url(../../GoogleFonts/Jost/static/Jost-Bold.ttf);
+}
+
+#Contact_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(242, 242, 242);
+    padding: 6rem 0;
+}
+
+
+#Contact_1 .Container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 80%;
+    padding: 4rem 0;
+    background-color: white;
+}
+
+#Contact_1 .contact_design {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20rem;
+    background-color: var(--main-color);
+}
+
+#Contact_1 form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    z-index: 2;
+    padding: 0 2rem;
+}
+
+#Contact_1 form h2 {
+    font-size: 3rem;
+    font-family: Jost_regular;
+    margin: 0;
+    color:  rgb(34, 33, 33);
+}
+
+#Contact_1 form p {
+    font-size: 1.1rem;
+    color: rgb(58, 58, 58);
+    font-family: Lato_regular;
+    line-height: 1.7rem;
+}
+
+#Contact_1 form label {
+    font-size: 1.1rem;
+    color: rgb(58, 58, 58);
+    font-family: Lato_regular;
+    margin: .5rem 0;
+}
+#Contact_1 form input {
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(177, 177, 177);
+}
+
+
+#Contact_1 form textarea {
+    height: 5rem;
+    border: 1px solid rgb(177, 177, 177);
+    padding: .5rem 1rem;
+}
+
+#Contact_1 form button {
+    padding: .7rem 1rem;
+    border: none;
+    background-color:  rgb(34, 33, 33);
+    background-color: var(--main-color);
+    border-radius: .2rem;
+    color: white;
+    font-size: .9rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#Contact_1 .info {
+    width: 50%;
+    box-sizing: border-box;
+    background-color: var(--main-black);
+    padding: 5rem 2rem;
+    color: white;
+    border-radius: .2rem;
+    z-index: 2;
+}
+
+#Contact_1 .info h3 {
+    font-size: 2rem;
+    font-family: Lato_regular;
+    margin: 0;
+}
+
+#Contact_1 .info p {
+    font-size: 1rem;
+    font-family: Lato_regular;
+    font-family: Lato_light;
+}
+
+
+#Contact_1 .info .info1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+#Contact_1 .info .icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10rem;
+    background-color: var(--main-color);
+}
+
+#Contact_1 .info .info1 i {
+   color: var(--main-black);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   scale: 1.4;
+}
+
+
+
+@media (max-width: 1000px) {
+    #Contact_1 .Container {
+        flex-direction: column;
+    }
+
+    #Contact_1 form {
+        width: 100%;
+    }
+
+    #Contact_1 .info {
+        width: 100%;
+    }
+
+    #Contact_1 .contact_design {
+        display: none;
+    }
+}
+
+@media (max-width: 501px) {
+    #Contact_1 .Container {
+    width: 90%;
+}
+
+#Contact_1 form {
+    padding: 0 1rem;
+}
+
+#Contact_1 .info {
+    padding:  1rem;
+}
+    
+#Contact_1 form p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+   
+#Contact_1 form h2 {
+    font-size: 2rem;
+}
+}

@@ -1,0 +1,140 @@
+#Service5 .service_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    /* background-color: white; */
+}
+
+#Service5 .service_containt {
+    display: flex;
+    box-sizing: border-box;
+    width: 80%;
+    gap: 2rem;
+    padding: 2rem ;
+    border-radius: .4rem;
+    background-color: var(--main-black);
+    /* border: 1px solid var(--main-color); */
+    color: white;
+}
+
+#Service5 .service_containt > div {
+    width: 100%;
+    padding-left: 1rem;
+    border-left: 1px solid var(--main-color);
+}
+
+#Service5 .service_containt > div p ,
+#Service5 .service_containt > div span {
+    margin-top: 0;
+}
+
+#Service5 .service_containt > div p  {
+    /* font-size: clamp(.98rem, 1.3vw, 10vw); */
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+}
+
+#Service5 .service_containt > div span {
+   position: relative;
+   font-size: 1.2rem;
+   color: var(--main-color);;
+}
+
+#Service5 .service_containt > div h2 {
+    position: relative;  
+    margin-top: 0;
+    /* font-size: clamp(1.8rem, 2.4vw, 10vw); */
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--main-color);
+    color: white;  
+}
+
+#Service5 .service_containt > div h2::before,
+#Service5 .service_containt > div h2::after {
+    content: "";
+    position: absolute;
+    width: 5rem;
+    height: .152rem;
+    border-radius: 1rem;
+    bottom: -0.2rem;
+    left: 0;
+    background-color: var(--main-color);
+}
+
+#Service5 .service_containt > div h2::after {
+   bottom: -.7rem;
+   width: 3rem;
+   
+}
+
+
+
+
+
+#Service5 .service_containt ul li {
+    /* font-size: clamp(1.1rem, 1.3vw, 10vw); */
+    /* font-size: clamp(.98rem, 1.3vw, 10vw); */
+    font-size: 1.1rem;
+    margin: .5rem 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#Service5 .service_containt > div span::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 2rem;
+    left: -1.32rem;
+    bottom: .35rem;
+    box-shadow: 0 0 1rem #3b61ddcd;
+    background-color: var(--main-color);
+}
+
+
+@media (max-width: 800px) {
+    #Service5 .service_containt {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    #Service5 .service_containt {
+        width: 100%;
+        padding: 2rem 1rem;
+        padding-right: 1.5rem;
+        border-radius: 0;
+    }
+
+ 
+
+
+
+}
+
+@media (max-width: 400px) {
+    #Service5 .service_containt > div span::before,
+#Service5 .service_containt > div h1::before {
+    left: -.91rem;
+    bottom: .35rem;
+}
+
+   #Service5 .service_containt > div {
+    padding-left: .6rem;
+}
+
+ #Service5 .service_containt {
+        padding-left: .5rem;
+    }
+}
+
+
+.cta {
+    line-height: 2rem;
+}

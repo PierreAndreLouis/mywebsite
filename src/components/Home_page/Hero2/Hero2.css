@@ -1,0 +1,344 @@
+ #Hero_home .Hero2_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 97vh;
+}
+
+
+
+ #Hero_home .rotate_bg {
+    position: absolute;
+    bottom: 5rem;
+    left: -2.5rem;
+    top: -10rem;
+    right: -5rem;
+    border-radius: 0 0 15rem 0;
+    transform: rotateZ(8deg);
+    overflow: hidden;
+}
+
+ #Hero_home .image_box {
+    transform: rotateZ(-8deg);
+    width: 100%;
+    height: 100%;
+}
+
+ #Hero_home .image_box .image {
+    width: 100%;
+    height: 90%;
+    transform: translateY(9.8rem);
+}
+
+ #Hero_home .image_box .image img {
+     object-fit: cover;
+     object-position: top;
+    width: 100%;
+    height: 140%;
+    transform: rotateY(180deg);
+
+}
+
+ #Hero_home .Hero2_container .hero_filter {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.889) 30%, rgba(0, 0, 0, 0));
+}
+
+
+/* /////////////////////////////////////////////// */
+/* hero2_containt */
+ #Hero_home .hero2_containt {
+    width: 80%;
+    z-index: 1;
+    color: white;
+
+}
+
+
+ #Hero_home .hero2_containt .hero {
+    transform: translateY(-3rem);
+}
+
+ #Hero_home .hero2_containt .hero h1 {
+    font-size: clamp(2.7rem, 3.5vw, 4.5rem);
+    margin: .0rem 0;
+}
+
+ #Hero_home .hero2_containt .hero h3 {
+    font-size: clamp(1.52rem, 2vw, 2rem);
+    margin: 1rem 0;
+    color: var(--main-black);
+    border: .15rem solid white;
+    width: 28rem;
+    padding: .3rem .8rem ;
+    background-color: var(--main-color);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+ #Hero_home .hero2_containt .hero p {
+    font-size: clamp(1.2rem, 1.5vw, 1.7rem);
+    width: 50vw;
+    min-width: 40rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.775);
+}
+
+ #Hero_home .hero2_containt .hero .btn_section {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+ #Hero_home .hero2_containt .hero button {
+     cursor: pointer;
+     border: none;
+    width: 10rem;
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    font-size: 1.051rem;
+    border: 1px solid  white;
+    background-color: transparent;
+    color: white;
+    
+}
+
+ #Hero_home .hero2_containt .hero .btn_section .down_cv {
+    background-color: var(--main-color);
+    color: var(--main-black);
+    font-weight: bold;
+}
+
+
+
+
+/* HEro links */
+ #Hero_home .Hero2_container .hero_links {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    color: black;
+    
+}
+
+ #Hero_home .hero2_containt .hero_links > div {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    /* box-shadow: 0 0 1rem inset rgba(0, 0, 0, 0.200); */
+
+}
+
+ #Hero_home .hero2_containt .hero_links > div > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: .51rem;
+    padding: 0 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.189);
+}
+
+ #Hero_home .hero2_containt .hero_links > div > div:last-child i {
+   cursor: pointer;
+}
+
+ #Hero_home .hero2_containt .hero_links > div > div img {
+     object-fit: cover;
+     cursor: pointer;
+    width: 1.82rem;
+    height: 1.82rem;
+    border-radius: 10rem;
+}
+
+ #Hero_home .hero2_containt .hero_links > div > div i {
+    font-size: 1.56rem;
+    color: var(--main-color);
+}
+
+
+ #Hero_home .hero2_containt .hero_links > div > div h3{
+    margin: .5rem 0;
+    margin-bottom: 0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(62, 62, 62);
+
+}
+
+ #Hero_home .hero2_containt .hero_links > div > div p{
+    margin: .5rem 0;
+    margin-top: 0;
+    color: gray;
+
+}
+
+
+
+/* mobile_hero_img */
+ #Hero_home .mobile_hero_img {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    margin-bottom: 2rem;
+}
+
+ #Hero_home .mobile_hero_img div {
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: bottom;
+     box-sizing: border-box;
+    width: 70vw;
+    height: 70vw;
+    border-radius: 20rem;
+    background-color: var(--main-color);
+    border: 2px solid white;
+    box-shadow: 0 0 1rem white;
+
+}
+
+ #Hero_home .mobile_hero_img div img {
+     filter: contrast(105%);
+    scale: 1.8;
+    padding-left: .61rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+     #Hero_home .Hero2_container {
+        height: 100vh;
+    }
+    
+
+
+     #Hero_home .rotate_bg {
+    transform: rotateZ(0deg);
+    border-radius: 0;
+}
+
+ #Hero_home .image_box {
+    transform: rotateZ(0deg);
+}
+
+ #Hero_home .rotate_bg {
+    bottom: 0rem;
+    left:  0rem;
+    top: -11rem;
+    right: 0rem;
+}
+
+ #Hero_home .hero2_containt .hero p {
+   width: 100% !important;
+   min-width: 0;
+}
+
+
+
+ #Hero_home .hero2_containt .hero_links {
+    display: none;
+}
+
+ #Hero_home .hero2_containt .hero {
+    transform: translateY(0rem);
+}
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 501px) {
+
+     #Hero_home .Hero2_container {
+    padding: 5rem 0;
+}
+
+     #Hero_home .mobile_hero_img {
+        display: flex;
+    }
+
+     #Hero_home .Hero2_container .hero_filter {
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.940) 70%);
+}
+
+
+     #Hero_home .hero2_containt .hero {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+     #Hero_home .hero2_containt .btn_section {
+        width: 100%;
+    }
+
+     #Hero_home .hero2_containt .btn_section button {
+        width: 38vw;
+    }
+
+     #Hero_home .hero2_containt .hero h1 {
+    font-size: clamp(2rem, 0.5vw, 10vw) ;
+    }
+
+     #Hero_home .hero2_containt .hero h3 {
+    font-size: clamp(1.2rem, 5vw, 5vw);
+    width: 80vw;
+    }
+
+     #Hero_home .hero2_containt .hero h1 {
+    font-size: clamp(2rem, 8.5vw, 10vw);
+}
+
+ #Hero_home .hero2_containt .hero p {
+    margin-top: 0;
+    line-height: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 400px) {
+     #Hero_home .hero2_containt .hero .btn_section {
+        gap: .5rem;
+    }
+
+
+     #Hero_home .hero2_containt .hero button {
+        font-size: .91rem;
+        padding: .5rem 0;
+    }
+}

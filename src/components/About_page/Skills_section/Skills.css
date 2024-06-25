@@ -1,0 +1,260 @@
+#Skills_about .Skills_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: white; */
+    padding-bottom: 8rem;
+    color: white;
+}
+
+#Skills_about .skills_containt {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    border-radius: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid #3b61dd4f;
+    background-color: var(--main-black);
+}
+
+#Skills_about .education_containt {
+    width: 50%;
+    border-left: 1px solid var(--main-color);
+    padding: 0 1rem;
+    margin-left: 2rem;
+}
+
+#Skills_about .education_containt p {
+    margin: .4rem 0;
+    font-size: 1.1rem;
+
+}
+
+#Skills_about  h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+#Skills_about .education_containt .title {
+    font-weight: bold;
+    color: var(--main-color);
+    transform: translateX(-.7rem);
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+#Skills_about .education_containt .years {
+    margin: 0;
+    color: var(--main-color);
+}
+
+#Skills_about .education_containt h4 {
+    position: relative;
+    margin: 0;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+    color: var(--main-color);
+}
+
+#Skills_about .education_containt h4::before {
+    content: '';
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    left: -1.45rem;
+    bottom: 0.3rem;
+    background-color: var(--main-color);
+    border-radius: 1rem;
+}
+
+#Skills_about .education_containt .text {
+    width: 95%;
+    /* font-size: clamp(1rem, 1.3vw, 10vw); */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    /* color: rgba(0, 0, 0, 0.800); */
+}
+
+#Skills_about .education_containt .tilte_box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#Skills_about .education_containt .tilte_box .bullet {
+    transform: translateX(-1.45rem);
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    background-color: var(--main-color);
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* skill_containt */
+#Skills_about .skill_containt {
+    width: 40%;
+}
+
+#Skills_about .skill_containt h2 {
+    font-size: 2rem;
+}
+
+#Skills_about .skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+#Skills_about .single_skill_container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem ;
+}
+
+#Skills_about .single_skill_container .single_skill {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Skills_about .single_skill_container .single_skill h5,
+#Skills_about .single_skill_container .single_skill p {
+    margin: 0;
+}
+
+#Skills_about .single_skill_container .single_skill h5 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+#Skills_about .single_skill_container .range_container {
+    position: relative;
+    width: 100%;
+    height: .4rem;
+    border-radius: 1rem;
+    background-color: var(--main-color);
+}
+
+#Skills_about .single_skill_container .range_containt {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 80%;
+    background-color: rgb(199, 198, 198);
+
+}
+
+
+#Skills_about .single_skill_container .html {
+    left: 95%;
+}
+
+#Skills_about .single_skill_container .css {
+    left: 90%;
+}
+
+#Skills_about .single_skill_container .javascript {
+    left: 80%;
+}
+
+#Skills_about .single_skill_container .react {
+    left: 80%;
+}
+
+#Skills_about .single_skill_container .photoshop {
+    left: 70%;
+}
+
+#Skills_about .single_skill_container .illustrator {
+    left: 70%;
+}
+
+#Skills_about .single_skill_container .bootstrap {
+    left: 80%;
+}
+
+#Skills_about .single_skill_container .mysql{
+   left: 60%;
+}
+
+#Skills_about .single_skill_container .oracle {
+    left: 60%;
+}
+
+#Skills_about .single_skill_container .c_plus {
+    left: 60%;
+}
+
+#Skills_about .single_skill_container .java {
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1000px) {
+    #Skills_about .skills_containt {
+        flex-direction: column;
+    }
+#Skills_about .education_containt .text {
+    width: 100%;
+}
+
+#Skills_about .education_containt {
+    width: 85%;
+}
+
+#Skills_about .skill_containt {
+    width: 85%;
+    padding: 0 2rem;
+}
+
+#Skills_about .skill_containt .skills {
+    padding-top: 2rem;
+}
+}
+
+@media(max-width: 501px) {
+    #Skills_about .Skills_container {
+        padding-top: 6rem;
+    }
+
+    #Skills_about .skills_containt {
+        width: 100%;
+        padding: 3rem 0;
+    }
+    #Skills_about .education_containt {
+        margin-left: 1rem;
+    }
+
+    #Skills_about .education_containt h2 {
+        font-size: 1.7rem;
+
+    }
+
+    #Skills_about .skill_containt h2 {
+        font-size: 1.7rem !important;
+    }
+
+    #Skills_about .single_skill_container .single_skill h5 {
+        font-size: 1rem;
+    }
+
+    #Skills_about .skill_containt {
+      padding-left: 1rem;
+    }
+}

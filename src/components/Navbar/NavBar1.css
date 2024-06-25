@@ -1,0 +1,184 @@
+#NavBar1.color_white {
+    background-color: white ;
+}
+
+#NavBar1.color_transparent {
+    background-color: transparent ;
+    color: white;
+    box-shadow: none;
+
+}
+
+#NavBar1.color_transparent ul li {
+    color: white;
+}
+
+#NavBar1.color_white .logo_section h3 span {
+    color: var(--main-color);
+}
+
+#NavBar1.color_white ul li:hover {
+    color: var(--main-color);
+}
+
+#NavBar1.color_transparent .logo_section .bi-list {
+    color: white;
+}
+
+
+
+
+
+#NavBar1  {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    overflow: hidden;
+    z-index: 10;
+    left: 0rem;
+    right: 0rem;
+    top: 0;
+    transition: .5s;
+    height: 2.6rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.176);
+    
+}
+
+#NavBar1 .navbar_containt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: .38rem 0;
+}
+
+
+
+
+
+
+
+
+#NavBar1 .logo_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+#NavBar1 .navbar_containt i {
+    display: none;
+}
+
+
+
+#NavBar1 h3 {
+    cursor: default;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+#NavBar1 .logo_section h3 span {
+    color: var(--main-color);
+}
+
+#NavBar1 ul {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+}
+
+#NavBar1 .Link {
+    text-decoration: none;
+}
+
+#NavBar1 ul li {
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 1.1rem;
+    transition: .15s;
+    color: black;
+}
+
+#NavBar1 ul li:hover {
+    color: var(--main-color);
+}
+
+#NavBar1 i {
+    display: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: black;
+}
+
+@media(max-width: 700px) {
+  #NavBar1.active {
+        height: 25rem;
+    }
+
+
+    
+    #NavBar1 .logo_section i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 2.2rem;
+        font-size: 2.1rem;
+    }
+    
+    
+    #NavBar1 .navbar_containt {
+        flex-direction: column;
+        
+    }
+ 
+    
+    #NavBar1 ul {
+        flex-direction: column;
+        padding: 2rem 0;
+        gap: 0;
+        height: 100%;
+        width: 100%;
+        
+    }
+
+ 
+
+    #NavBar1 ul li {
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.113);
+    }
+    #NavBar1 .logo_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    } 
+
+
+
+
+    #NavBar1.color_transparent.active  {
+    background-color: white;
+}
+
+#NavBar1.color_transparent.active ul li,
+#NavBar1.color_transparent.active .logo_section h3,
+#NavBar1.color_transparent.active .logo_section .bi-list  {
+    color: black;
+}
+
+#NavBar1.color_transparent.active .logo_section h3 span  {
+    color: var(--main-color);
+}
+    
+    
+}
+
