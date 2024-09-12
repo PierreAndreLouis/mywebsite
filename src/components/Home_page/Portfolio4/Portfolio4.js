@@ -31,27 +31,14 @@ function Portfolio4() {
                     <h4>Mon travail</h4>
                     <h2>Dernière réalisation de projet</h2>
                 </div>
-                <div className='categorie'>
-                    {/* <button>All</button>
-                    <button>Website</button>
-                    <button>WebApp</button>
-                    <button>Design</button> */}
-                </div>
+                {/* <div className='categorie'>
+                    <button>All</button>
+                    <button>Full-stack</button>
+                    <button>Web App</button>
+                    <button>Portfolio</button>
+                </div> */}
                 <main>
-                    {/* <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
-                            <div className='img_box'>
-                                <img src={bg_portfolio1} alt='this is a porfolio image' />
-                            </div>
-                        </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
-                            <div className='description'>
-                                <h4>Hotel service</h4>
-                                <p>Html, css, Javascript and React JS</p>
-                            </div>
-                        </a>
-                    </div> */}
-
+            
 
 
 
@@ -60,14 +47,14 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
+                        <a target='blank' href='https://photograph-service.onrender.com//'>
                             <div className='img_box'>
-                                <img src={website2} alt='this is a porfolio image' />
+                                <img src="https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/photography_portfolio.jpg" alt='this is a porfolio image' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
+                        <a target='blank' href='https://photograph-service.onrender.com//'>
                             <div className='description'>
-                                <h4>Site Web Portfolio</h4>
+                                <h4>Service de photograph</h4>
                                 <p>Html, css, Javascript and React JS</p>
                             </div>
                         </a>
@@ -75,14 +62,14 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
+                        <a target='blank' href='https://cleaning-uauq.onrender.com/'>
                             <div className='img_box'>
-                                <img src={website3} alt='this is a porfolio image' />
+                                <img src={"https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/nettoyage_protfolio.jpg"} alt='this is a porfolio image' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
+                        <a target='blank' href='https://cleaning-uauq.onrender.com/'>
                             <div className='description'>
-                                <h4>Site Web Portfolio</h4>
+                                <h4>Service de nettoyage</h4>
                                 <p>Html, css, Javascript and React JS</p>
                             </div>
                         </a>
@@ -92,14 +79,14 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
+                        <a target='blank' href='https://markething.onrender.com/'>
                             <div className='img_box'>
-                                <img src={website4} alt='this is a porfolio image' />
+                                <img src={"https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/markething_portfolio.jpg"} alt='this is a porfolio image' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
+                        <a target='blank' href='https://markething.onrender.com/'>
                             <div className='description'>
-                                <h4>Site Web Portfolio</h4>
+                                <h4>Service de Markething</h4>
                                 <p>Html, css, Javascript and React JS</p>
                             </div>
                         </a>
@@ -108,14 +95,14 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
+                        <a target='blank' href='https://coaching-pro.onrender.com/'>
                             <div className='img_box'>
-                                <img src={website1} alt='this is a porfolio image' />
+                                <img src={"https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/coaching_protfolio.jpg"} alt='this is a porfolio image' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
+                        <a target='blank' href='https://coaching-pro.onrender.com/'>
                             <div className='description'>
-                                <h4>Site Web Portfolio</h4>
+                                <h4>Service de Coaching</h4>
                                 <p>Html, css, Javascript and React JS</p>
                             </div>
                         </a>
@@ -125,12 +112,12 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='img_box'>
-                                <img src={bg_portfolio1} alt='this is a porfolio image' />
+                                <img src="https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/hotel_service_portfolio.jpg" alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='description'>
-                                <h4>Hotel service</h4>
+                                <h4>Service d'Hotel</h4>
                                 <p>Html, css, Javascript and React JS</p>
                             </div>
                         </a>

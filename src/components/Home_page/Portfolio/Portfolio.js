@@ -30,12 +30,70 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                                 <div className='img_box'>
-                                    <img src={hotel} alt='This is an image of my project' />
+                                    <img src="https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/photography_portfolio.jpg" alt='this is a porfolio image' />
+                                </div>
+                            </a>
+                            <h3>Service de Photography</h3>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'> <button>Visite</button></a>
+                        </div>
+
+
+
+                        <div>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                                <div className='img_box'>
+                                    <img src={"https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/nettoyage_protfolio.jpg"} alt='this is a porfolio image' />
+                                </div>
+                            </a>
+                            <h3>Service de Nettoyage</h3>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'> <button>Visite</button></a>
+                        </div>
+
+
+                        <div>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                                <div className='img_box'>
+                                    <img src={"https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/markething_portfolio.jpg"} alt='this is a porfolio image' />
+                                </div>
+                            </a>
+                            <h3>Service de Markething</h3>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'> <button>Visite</button></a>
+                        </div>
+
+
+
+                        <div>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                                <div className='img_box'>
+                                    <img src={"https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/coaching_protfolio.jpg"} alt='this is a porfolio image' />
+                                </div>
+                            </a>
+                            <h3>Service de Coaching</h3>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'> <button>Visite</button></a>
+                        </div>
+
+
+
+
+
+                        <div>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                                <div className='img_box'>
+                                    <img src="https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/hotel_service_portfolio.jpg" alt='this is a porfolio image' />
                                 </div>
                             </a>
                             <h3>Service Hôtel</h3>
                             <a target='blank' href='https://louispierre-andre.github.io/Hotel/'> <button>Visite</button></a>
                         </div>
+
+
+
+
+
+
+
+
+
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
                                 <div className='img_box'>

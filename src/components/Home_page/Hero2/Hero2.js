@@ -82,7 +82,15 @@ function Hero2() {
                     </div>
                 </div>
 
-        
+                <div className='hero_bottom_design'>
+                    <img src='https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/hero_bg_design2.png' alt='' />
+                </div>
+                {/* <div className='bg_image'>
+                    <div className='hero_filter'></div>
+                    <img src={hero_bg} alt='This is the hero background' />
+                </div> */}
+
+
             </div>
         </section>
     )
