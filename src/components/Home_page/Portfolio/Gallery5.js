@@ -13,7 +13,7 @@ const images = [
         titre: "Service de Photography",
         link: "https://photograph-service.onrender.com",
         category: 'Landing Page',
-        src: 'https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/nettoyage_protfolio.jpg'
+        src: 'https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/photography_portfolio.jpg'
     },
 
 
