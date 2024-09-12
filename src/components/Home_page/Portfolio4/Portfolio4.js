@@ -2,18 +2,6 @@ import React from 'react'
 import './Portfolio4.css'
 import { Link } from 'react-router-dom'
 
-import website1 from "./images/website1.PNG"
-import website2 from "./images/website2.PNG"
-import website3 from "./images/website3.PNG"
-import website4 from './images/website4.PNG'
-import bg_portfolio1 from "./images/hotel1.png"
-import bg_portfolio4 from "./images/transport.png"
-import bg_portfolio5 from './images/quizeApp.png'
-
-
-
-
-import hotel from './images/hotel2.png'
 
 function Portfolio4() {
     const handleClick = () => {
@@ -31,12 +19,7 @@ function Portfolio4() {
                     <h4>Mon travail</h4>
                     <h2>Dernière réalisation de projet</h2>
                 </div>
-                {/* <div className='categorie'>
-                    <button>All</button>
-                    <button>Full-stack</button>
-                    <button>Web App</button>
-                    <button>Portfolio</button>
-                </div> */}
+            
                 <main>
             
 
@@ -125,40 +108,6 @@ function Portfolio4() {
 
 
 
-
-
-{/* 
-                    <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
-                            <div className='img_box'>
-                                <img src={bg_portfolio4} alt='this is a porfolio image' />
-                            </div>
-                        </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
-                            <div className='description'>
-                                <h4>Transport service</h4>
-                                <p>Html, css, Javascript and React JS</p>
-                            </div>
-                        </a>
-                    </div> */}
-
-
-
-
-{/* 
-                    <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
-                            <div className='img_box'>
-                                <img src={bg_portfolio5} alt='this is a porfolio image' />
-                            </div>
-                        </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
-                            <div className='description'>
-                                <h4>Quiz Application</h4>
-                                <p>Html, css, Javascript and React JS</p>
-                            </div>
-                        </a>
-                    </div> */}
 
 
 
