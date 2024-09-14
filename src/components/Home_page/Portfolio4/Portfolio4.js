@@ -29,13 +29,13 @@ function Portfolio4() {
 
 
 
-                    <div className='portfolio1'>
+                    <div className='portfolio1 photography'>
                         <a target='blank' href='https://photograph-service.onrender.com//'>
                             <div className='img_box'>
                                 <img src="https://raw.githubusercontent.com/PierreAndreLouis/images/main/image_portfolio_my_website/photography_portfolio.jpg" alt='this is a porfolio image' />
                             </div>
                         </a>
-                        <a target='blank' href='https://photograph-service.onrender.com//'>
+                        <a target='blank' href='https://photography-service.onrender.com//'>
                             <div className='description'>
                                 <h4>Service de photograph</h4>
                                 <p>Html, css, Javascript and React JS</p>

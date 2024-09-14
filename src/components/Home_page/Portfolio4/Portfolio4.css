@@ -133,6 +133,19 @@
 
 }
 
+#Portfolio_4 main .portfolio1.photography {
+   background-color: rgb(31, 115, 148);
+   background-color: rgb(14, 122, 165);
+}
+
+
+
+#Portfolio_4 main .portfolio1.photography .description {
+    background-color: transparent !important;
+}
+
+
+
 #Portfolio_4 main .portfolio1 a {
     text-decoration: none;
 }
