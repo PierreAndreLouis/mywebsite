@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-     "publish": "npm run build && npm publish"
+    "publish": "npm run build && npm publish"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "serve": "^14.2.3"
   }
 }
