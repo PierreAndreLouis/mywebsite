@@ -1,0 +1,9 @@
+version: 1
+services:
+  - type: web
+    name: my-website
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: serve -s build
+    plan: free
+    autoDeploy: true
