@@ -9,12 +9,14 @@ import Process from './Process/Service_2_Process'
 import Contact from './Contact/Contact5'
 import Contact1 from './Contact1/Contact1'
 import Hero2 from './Hero2/Hero2'
+import HomeSeo from '../seo/HomeSeo'
 
 
 
 function Home_page() {
     return (
         <div>
+            <HomeSeo />
             <Hero2 />
             <About3 />
             <Service />
