@@ -38,10 +38,11 @@ function NavBar1() {
             <div className='navbar_containt'>
                 <div className='logo_section'>
                     <h3>Pierre-<span>Andre</span></h3>
-                    <i onClick={() => { setShowNav(!showNav) }} class="bi bi-list"></i>
+                    <i onClick={() => { setShowNav(!showNav) }} className="bi bi-list"></i>
                 </div>
                 <ul onClick={() => { setShowNav(!showNav) }}>
-                    <Link className='Link' onClick={() => { handleClick() }} to="/portfolio"><li>Home</li></Link>
+                    <Link className='Link' onClick={() => { handleClick() }} to="/"><li>Home</li></Link>
+                    {/* <Link className='Link' onClick={() => { handleClick() }} to="/portfolio"><li>Home</li></Link> */}
                     <Link className='Link' onClick={() => { handleClick() }} to="/About"><li >About</li></Link>
                     <Link className='Link' onClick={() => { handleClick() }} to="/Projects"><li >Portfolio</li></Link>
                     <Link className='Link' onClick={() => { handleClick() }} to="/Contact"><li>Contact</li></Link>

@@ -1,43 +1,15 @@
-
-
-
-
-
-
-
-
-
 body {
     margin: 0;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-p {
-    /* font-size: clamp(1.1rem, 1.4vw, 10vw); */
-    /* line-height: 1.9rem; */
-}
+
 
 .Link {
     text-decoration: none; 
 }
 
-:root {
-    /* color: rgb(0, 112, 153); */
-    /* --main-color: #023a27;
-    --main-color-dark-team: #03583c;
-    --main-light: #11a3721e;
-    --white-color: #ffffff;
-    --section-bg: #ffffff;
-    --header-text-bg: #11493746;
-    --header-filter-bg1: #11a37233;
-    --header-filter-bg2: #11a3720a;
-    --skill-bar-color: green;
-    --light-color-60: #03583c;
-    --footer-color: #023a27;
-    --box-shadodw-color: #023a2773; */
-}
+
 
 
 :root {
